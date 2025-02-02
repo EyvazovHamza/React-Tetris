@@ -1,0 +1,40 @@
+/* src/components/Modal/Modal.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .modal-content {
+    margin-bottom: 1rem;
+  }
+  
+  .modal-close {
+    background-color: #ff4c4c;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .modal-close:hover {
+    background-color: #ff1a1a;
+  }

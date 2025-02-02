@@ -1,0 +1,17 @@
+.game-info {
+  color: #ffffff;
+  font-size: 1.1rem;
+  background-color: #1e1e1e;
+  padding: 1.4rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 2.2rem;
+
+}
+
+
+
+.game-info h2 {
+  margin: 0.5rem 0;
+}
